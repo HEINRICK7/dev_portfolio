@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700&display=swap');
+@font-face {
+	font-family: 'socialfont';
+	src:url('./css/fonts/socialfont.eot?mh1paq');
+	src:url('./css/fonts/socialfont.eot?#iefixmh1paq') format('embedded-opentype'),
+		url('./css/fonts/socialfont.woff?mh1paq') format('woff'),
+		url('./css/fonts/socialfont.ttf?mh1paq') format('truetype'),
+		url('./css/fonts/socialfont.svg?mh1paq#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+    background: #282a36;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white
+
+}
+
+header {
+    padding: 32px;
+    border-bottom:7px solid #333;
+    background: rgba(0, 0, 0, 0.1)
+}
+
+.links {
+    text-align: center;
+
+}
+
+.links a{
+    color: white;
+    font-size: 18px;
+    line-height: 28px;
+    margin: 0 16px;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+.links a:hover {
+    color: #09fc46;
+    transition: color 200ms;
+    cursor: pointer;
+}
+
+.wrapper {
+    text-align: center;
+    padding: 35px;
+
+}
+
+.wrapper img {
+    border-radius: 50%;
+    border: 4px solid  #09fc46;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    height: 150px;
+}
+
+.wrapper h1 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    
+}
+
+.wrapper h2{
+    font-size: 20px;
+    line-height: 22px;
+    font-weight: normal;
+    margin-top: 5px;
+    color: rgba(255, 255, 255, 0.788);
+    
+    
+    
+}
+.wrapper h4{
+    font-size: 20px;
+    line-height: 22px;
+    font-weight: normal;
+    margin-top: 28px;
+    color: rgba(255, 255, 255, 0.788);
+}
+
+.wrapper p {
+    max-width: 100%;
+    margin: 25px auto;
+    color: rgba(255, 255, 255, 0.788);
+}
+
+
+#links-footer a {
+    border: 2px solid  #09fc46bd;
+    border-radius: 50%;
+    padding: 3px;
+    margin-bottom: 10px;
+    margin-top: -25px;
+}
+#links-footer a:hover{
+    color:  #09fc46;
+    border:2px solid #09fc46;
+    transition: color 200ms;
+    cursor: pointer;
+    
+    
+}
