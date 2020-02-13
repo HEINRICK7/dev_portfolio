@@ -106,6 +106,15 @@ header {
     border:2px solid #09fc46;
     transition: color 200ms;
     cursor: pointer;
-    
-    
 }
+.links a{
+        color: white;
+        font-size: 28px;
+        line-height: 28px;
+        margin: 0 16px;
+        padding-bottom: 9px;
+        text-decoration: none;
+    }
+    
+    
+    
